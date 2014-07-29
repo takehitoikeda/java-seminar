@@ -2,7 +2,6 @@ package intermediate.sample8;
 
 public class Sample8 {
 
-
 	/*
 	 * 製作
 	 *
