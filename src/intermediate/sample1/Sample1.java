@@ -21,15 +21,34 @@ public class Sample1 {
 		System.out.println(buf);
 		System.out.println("です。");
 
-		
-		
-		int num = 13456789;
-		double d = (double)num;
+
+
+
+		System.out.println("数値を入力してください。");
+		buf = br.readLine();
+
+		double d = Double.parseDouble(buf); //文字を入力しているとエラーになります
 		System.out.println(d);
-		
-		
-		
-		
+
+		int num = (int)d;
+		System.out.println(num);
+
+
+
+
+		/*
+		 * int num = Integer.parseInt(buf);
+		 * に小数ありの入力値を渡すとエラーになります
+		 */
+
+
+
+
+
+
+
+
+
 	}
 
 
